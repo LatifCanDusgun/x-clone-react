@@ -48,6 +48,10 @@ const routes = createBrowserRouter([
                     element: <Premium />
                 },
                 {
+                    path: ':slug',
+                    element: <Profile />
+                },
+                {
                     path: '*',
                     element: <NotFound />
                 },
